@@ -1,0 +1,14 @@
+[project]
+name = "ProductsMatcher"
+version = "0.1.0"
+description = "This utility allows you to perform the procedure of matching new products with existing ones. Key fields mpn, upc, prices, mfg, brand, title, unit_of_measure."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "pyodbc>=5.2.0",
+    "python-levenshtein>=0.26.1",
+    "scikit-learn>=1.6.1",
+    "sqlalchemy>=2.0.38",
+    "thefuzz>=0.22.1",
+]
